@@ -7,7 +7,6 @@ package org.vip.arrays;
  *
  */
 public class CheckMajorityElement {
-	
 	/**
 	 * The linear method of finding first occurrence of the element in the array is very simple.
 	 * (1) Find first position of element by linear Search in Array
@@ -25,7 +24,7 @@ public class CheckMajorityElement {
 		int high = arr.length - 1;
 		int firstOccurrence = binarySearch(arr, 0, high, x);
 		
-	 //System.out.println(firstOccurrence);
+		//System.out.println(firstOccurrence);
 		
 		if (firstOccurrence == -1) {
 			return false;
